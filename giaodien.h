@@ -19,6 +19,19 @@ void textcolor(int x)
 	mau=GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(mau,x);
 }
+void set_color ( int code ) {
+    HANDLE color = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute( color , code );
+}
+void setFontSize(int FontSize)
+{
+CONSOLE_FONT_INFOEX info = {0};
+info.cbSize = sizeof(info);
+info.dwFontSize.Y = FontSize; // leave X as zero
+info.FontWeight = FW_NORMAL;
+
+SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), NULL, &info);
+}
 
 // Hàm d?ch chuy?n con tr? d?n t?a d? x, y.
 void gotoxy(int x,int y)
