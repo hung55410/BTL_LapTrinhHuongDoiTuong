@@ -529,11 +529,11 @@ void listMenuEvent() {
                     break;
                 }
   
-            default:
-                {
-                    cout << "Nhap sai!!!" << endl;
-                    break;
-                }
+//            default:
+//                {
+//                    cout << "Nhap sai!!!" << endl;
+//                    break;
+//                }
             
             }
         }
@@ -604,11 +604,7 @@ void menuMain(DateTime time) {
 		            listMenuEvent();
 		            break;
 		        }
-		        default:
-		        {
-		            cout << "Lua chon khong hop le" << endl;
-		            break;
-		        }
+
             
             }
         }
@@ -624,7 +620,7 @@ void menuMain(DateTime time) {
         {
             cn--;
         }
-         if (cn > 2)
+         if (cn > 3)
         {
              
              cn = 1;
@@ -632,7 +628,7 @@ void menuMain(DateTime time) {
         else if (cn < 1)
         {
              
-             cn = 2;
+             cn = 3;
         }
     }
     while (1);
@@ -647,7 +643,7 @@ int main(){
     DateTime time;
     Event *ev;
 	set_color( 0 <<4|2);
-	setFontSize(25);
+	setFontSize(20);
 	system("title QUAN LY SU KIEN"); 
     menuMain(time);
 
