@@ -24,9 +24,35 @@ Phần mềm Quản Lý Phòng Trọ (Dành cho chủ trọ) sẽ quản lý dã
 #### Libraries
 - JavaFX: https://openjfx.io/
 - Maven: https://maven.apache.org/
+- FXML: https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm
 
 #### IDE
 - Scene Builder: https://gluonhq.com/products/scene-builder/
 - Intellij 2021.3.3
 - MySQL, MySQL WorkBench
 
+#### What's included?
+- FXML: Thiết kế UI cho chương trình
+- JAR: Chứa các thư viện bên ngoài
+- Image: Chứa các hình ảnh sử dụng trong chương trình
+- Icon: Chứa các bộ icon không nằm trong thư viện icon fontAwesome
+- src: chứa mã nguồn chính của chương trình
+  - Main: Chạy chương trình chính
+  - Controller: Bắt sự kiên của người dùng
+  - DatabaseConnection: Liên kết với Database
+
+#### How to Use?
+- Comming soon
+
+#### :v: Member
+- Dương Văn Hoàng
+- Đặng Đình Sang
+- Mai Danh Dũng
+- Kiều Đạt Quốc Hưng
+- Nguyễn Hồ Hưng
+
+#### :mag_right: Place
+- English name: University of Transport and Communications campus in HCMC
+- Vietnamese name: Trường Đại Học Giao Thông Vận Tải phân hiệu tại TP.Hồ Chí Minh
+
+### Update Comming Soon
