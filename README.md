@@ -1,4 +1,3 @@
 ## Bài tập lớn môn **Công Nghệ JAVA**
 
-introduction
-install
+### Phần mềm quản lý phòng trọ (Dành cho chủ nhà trọ).
