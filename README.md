@@ -1,5 +1,2 @@
-# BTL_LapTrinhHuongDoiTuong
+## Bài tập lớn môn **Công Nghệ JAVA**
 
-## Bài tập lớn môn ** Công nghệ JAVA **
-
-### 
